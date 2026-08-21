@@ -98,6 +98,9 @@ jobs:
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
+          # The published branch holds an already-built site. Without this marker
+          # GitHub Pages runs its own Jekyll pass over it, which it must not do.
+          touch _site/.nojekyll
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
