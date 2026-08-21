@@ -8,7 +8,7 @@ middle_name:
 last_name: Park
 contact_note: >
   Email is the best way to reach me.
-description: >
+description: >-
   Jinwoo Park is a Ph.D. student in Statistics at the University of Chicago,
   working on nonparametric inference, time series, and transfer learning.
 footer_text: >
@@ -113,7 +113,7 @@ max_width: 930px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+og_image: /assets/img/prof_pic.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
