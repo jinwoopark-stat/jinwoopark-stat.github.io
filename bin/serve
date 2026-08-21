@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Local preview: http://127.0.0.1:4000  (Ctrl-C to stop)
+# Homebrew's Ruby is required; macOS system Ruby (2.6) is too old for Jekyll 4.
+set -euo pipefail
+
+export PATH="/opt/homebrew/opt/ruby/bin:$HOME/.gem/ruby-brew/bin:$PATH"
+export GEM_HOME="$HOME/.gem/ruby-brew"
+
+cd "$(dirname "$0")/.."
+exec bundle exec jekyll serve --host 127.0.0.1 --port 4000 --livereload "$@"

@@ -26,14 +26,12 @@ theme is upgraded.
 Ruby 3+ is required (macOS system Ruby is too old). With Homebrew:
 
 ```bash
-brew install ruby imagemagick
-export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
-
-bundle install
-bundle exec jekyll serve --livereload
+brew install ruby imagemagick   # once
+bin/serve
 ```
 
-Then open http://localhost:4000.
+Then open http://127.0.0.1:4000. `bin/serve` sets the Homebrew Ruby on PATH and runs
+`jekyll serve --livereload`; Ctrl-C stops it.
 
 ## Deploying
 
