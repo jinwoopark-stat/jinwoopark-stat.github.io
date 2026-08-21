@@ -2,11 +2,11 @@
 # Displayed in the order defined here. Plugin docs: https://github.com/george-gca/jekyll-socials
 email: jpark01@uchicago.edu
 github_username: jinwoopark-stat
+linkedin_username: jinwoo-park-a86065404
 # rss_icon: true  # uncomment to show the RSS feed icon
 
 # Fill these in once the profiles exist, then uncomment:
 # scholar_userid: # your Google Scholar user ID (the `user=` part of the profile URL)
 # orcid_id: # 0000-0000-0000-0000
-# linkedin_username: # the `/in/<this>` part of your LinkedIn URL
 # arxiv_id: # your arXiv author identifier, e.g. park_j_1
 # x_username:

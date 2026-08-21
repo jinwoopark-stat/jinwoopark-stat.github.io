@@ -189,6 +189,13 @@ newsletter:
 # Collections
 # -----------------------------------------------------------------------------
 
+# News items carry the date of the event they announce, so an item can sit a few days
+# in the future. Jekyll's default (future: false) then renders it in the news list but
+# silently skips writing its standalone page, while jekyll-sitemap still lists the URL —
+# a sitemap entry pointing at a 404. Publishing future-dated documents keeps the build
+# output the same no matter what day the deploy workflow happens to run.
+future: true
+
 collections:
   books:
     output: true

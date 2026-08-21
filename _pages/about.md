@@ -74,7 +74,8 @@ Outside of research I play tennis, watch far too much football, and build AI age
       "Statistical machine learning"
     ],
     "sameAs": [
-      "https://github.com/jinwoopark-stat"
+      "https://github.com/jinwoopark-stat",
+      "https://www.linkedin.com/in/jinwoo-park-a86065404"
     ]
   }
 </script>
