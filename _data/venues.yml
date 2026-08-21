@@ -1,0 +1,9 @@
+# Colors and links for the venue badges shown next to a publication's `abbr`.
+# Add one entry per venue as papers get published, e.g.:
+#
+# "AoS":
+#   url: https://imstat.org/journals-and-publications/annals-of-statistics/
+#   color: "#00369f"
+
+"Preprint":
+  color: "#7a7a7a"

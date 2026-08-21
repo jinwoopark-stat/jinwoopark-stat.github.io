@@ -1,0 +1,6 @@
+# Maps a coauthor's last name to the name variants used in papers.bib, so the
+# bibliography can link them. Empty until there is a coauthor to link.
+#
+# "smith":
+#   - firstname: ["Jane", "J."]
+#     url: https://example.com

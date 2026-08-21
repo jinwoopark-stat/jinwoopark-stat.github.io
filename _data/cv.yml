@@ -1,0 +1,137 @@
+cv:
+  name: Jinwoo Park
+  label: Ph.D. Student in Statistics
+  email: jpark01@uchicago.edu
+  image: ""
+  summary: >
+    Statistician working on nonparametric inference for locally stationary time series,
+    with an interest in transfer learning and the theory behind modern machine learning.
+
+  address:
+    street: Department of Statistics, 5747 S. Ellis Ave.
+    city: Chicago
+    region: Illinois
+    postalCode: IL 60637
+    countryCode: US
+
+  sections:
+    Education:
+      - institution: University of Chicago
+        location: Chicago, IL, USA
+        url: https://stat.uchicago.edu/
+        studyType: Ph.D. in Statistics
+        start_date: 2026
+        end_date: ""
+
+      - institution: Seoul National University
+        location: Seoul, Korea
+        url: https://stat.snu.ac.kr/
+        studyType: B.S. in Statistics
+        start_date: 2020-03
+        end_date: 2026-08
+        highlights:
+          - "GPA 4.07/4.3 overall; 4.09/4.3 in the statistics major."
+          - "Mandatory military service, Republic of Korea Air Force, May 2022 – Feb 2024."
+
+      - institution: Seoul Science High School
+        location: Seoul, Korea
+        studyType: High School Diploma
+        start_date: 2017-03
+        end_date: 2020-02
+        highlights:
+          - "GPA 4.20/4.3."
+
+    Experience:
+      - company: Nonparametric Inference Lab, Department of Statistics, Seoul National University
+        position: Undergraduate Researcher
+        location: Seoul, Korea
+        start_date: 2024-08
+        end_date: 2026-07
+        summary: "Advisor: Byeong U. Park"
+        highlights:
+          - "Derived uniform convergence rates for multivariate locally linear estimators under strong mixing, with an error expansion that separates stochastic variation, smoothing bias, and a term induced by local stationarity."
+          - "Proposed bias-corrected transfer learning estimators that connect a sparsely observed target series to densely observed auxiliary domains through a smoothly varying bias function over rescaled time and covariates."
+          - "Characterized a compatibility threshold, set by cross-domain curvature, separating the regime where transfer improves risk from the regime where heterogeneity leaves irreducible bias."
+          - "Validated the theory through simulation studies and an empirical analysis of international fuel prices."
+          - "Separately, built a multi-agent AutoGen pipeline for automated feature construction and variable selection in an industry collaboration (through Jan 2026)."
+
+      - company: Time Series and Predictive Analytics Lab, Seoul National University
+        position: Undergraduate Research Intern
+        location: Seoul, Korea
+        start_date: 2024-03
+        end_date: 2024-07
+        summary: "Advisor: Sangyeol Lee"
+        highlights:
+          - "Forecast population and housing prices in Gyeonggi Province with VAR and ARIMA models."
+          - "Evaluated the models under rolling-origin forecasting."
+
+    Publications:
+      - title: Transfer Learning and Locally Linear Regression for Locally Stationary Time Series
+        authors:
+          - Jinwoo Park
+        publisher: arXiv preprint arXiv:2511.12948
+        releaseDate: 2025-11-17
+        url: https://arxiv.org/abs/2511.12948
+        summary: >
+          Uniform convergence for multivariate locally linear estimators under strong mixing,
+          and bias-corrected transfer learning estimators that let a sparsely observed series
+          borrow strength from densely observed related sources.
+
+    Honors and Awards:
+      # awards.liquid renders these in file order, so keep them reverse-chronological.
+      - title: Outstanding Tutor, Statistics Peer Tutoring Program
+        date: 2025
+        awarder: Seoul National University
+        summary: Awarded in Spring 2025 and Fall 2024.
+
+      - title: Silver Prize, College Mathematics Competition
+        date: 2024
+        awarder: Korean Mathematical Society
+        summary: Also awarded in 2023 and 2021.
+
+      - title: Presidential Science Scholarship
+        date: 2020
+        awarder: Korea Student Aid Foundation
+        summary: Full tuition plus an annual stipend for eight semesters, 2020–2025.
+
+      - title: Silver Prize, Korean Mathematical Olympiad
+        date: 2018
+        awarder: Korean Mathematical Society
+        summary: Also awarded in 2016.
+
+    Academic Interests:
+      - name: Nonparametric Inference
+        icon: fa-solid fa-chart-line
+        keywords:
+          - local polynomial regression
+          - uniform convergence
+          - high-dimensional inference
+
+      - name: Time Series
+        icon: fa-solid fa-wave-square
+        keywords:
+          - locally stationary processes
+          - strong mixing
+          - forecasting
+
+      - name: Machine Learning
+        icon: fa-solid fa-brain
+        keywords:
+          - transfer learning
+          - deep learning theory
+          - large language models
+          - AI agents
+
+    Talks and Seminars:
+      - bullet: "**Transfer Learning and Nonparametric Regression for Locally Stationary Time Series** — Nonparametric Inference Lab group seminar, Seoul National University, Oct 2025."
+      - bullet: "**Statistical Learning Seminar** (with Prof. Hee-Seok Oh), Seoul National University, Mar–Nov 2025 — six talks: deep learning in Besov spaces (Suzuki, 2019); high-dimensional classification and nearest shrunken centroids; association rules and clustering; projection pursuit regression, neural networks, and Bayesian deep learning; SCAD, adaptive Lasso, and GAMs; linear regression from *The Elements of Statistical Learning*."
+      - bullet: "**Bayesian Deep Learning and a Probabilistic Perspective of Generalization** (Wilson & Izmailov, 2022) — peer group seminar, Apr 2024."
+
+    Teaching:
+      - bullet: "**Peer Tutor**, Department of Statistics, Seoul National University — Spring 2024, Fall 2024, Spring 2025. Tutored regression analysis, statistics, and probability courses, 26+ contact hours per semester. Named Outstanding Tutor twice."
+
+    Service and Outreach:
+      - bullet: "**SNU in Washington, D.C. Program**, Jan 2025 — team research on U.S. immigration policy and public opinion."
+      - bullet: "**Samsung Hope School**, Vietnam, Aug 2024 — a week of educational volunteering with elementary school students."
+      - bullet: "**Dream Camp mentoring**, Jan 2022 — career mentoring for high school students."
+      - bullet: "**SNU–University of Minnesota cultural exchange**, Fall 2021."
